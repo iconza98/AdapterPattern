@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AdapterPattern:jar">
+    <output-path>$PROJECT_DIR$/out/AdapterPattern_jar</output-path>
+    <root id="archive" name="AdapterPattern.jar">
+      <element id="module-output" name="AdapterPattern" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Adapter.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/AdapterPatternUML.jpg" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/XXCircleAdapter.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Driver.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Line.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Point.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Rectangle.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Shape.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/XXCircle.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/part b.txt" />
+    </root>
+  </artifact>
+</component>

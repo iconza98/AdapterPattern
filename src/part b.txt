@@ -1,0 +1,9 @@
+b.	A web application uses a database to get Employee data. The application could use the database API directly,
+but this would result in a number of low-level SQL calls scattered throughout the code (setting the connection,
+building queries, extracting results, building Employee objects, etc.).
+
+Explain how you can design the application so that it is not directly dependent on the database used, and so
+getting and setting employee data won’t be such a pain.
+
+We could use the simple factory method to create a the connection, then we could use an facade pattern to make the
+low-level calls easier to work with by simplifying by abstracting it to a higher level interface.
